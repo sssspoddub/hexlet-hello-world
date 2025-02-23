@@ -1,3 +1,7 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "hexlet-hello-world"
 version = "0.1.0"
@@ -5,10 +9,14 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
-    "more-itertools>=10.6.0",
+    "more-itertools>=10.6.0"
 ]
 
-[dependency-groups]
-dev = [
-    "black>=25.1.0",
-]
+[project.scripts]
+my-app = "my_application.scripts.main:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["my_application"]
+exclude = ["hexlet_hello_world"]
+

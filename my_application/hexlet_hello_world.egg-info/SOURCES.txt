@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+my_application/hexlet_hello_world.egg-info/PKG-INFO
+my_application/hexlet_hello_world.egg-info/SOURCES.txt
+my_application/hexlet_hello_world.egg-info/dependency_links.txt
+my_application/hexlet_hello_world.egg-info/entry_points.txt
+my_application/hexlet_hello_world.egg-info/requires.txt
+my_application/hexlet_hello_world.egg-info/top_level.txt
+my_application/scripts/__init__.py
+my_application/scripts/main.py
+my_application/scripts/second_script.py

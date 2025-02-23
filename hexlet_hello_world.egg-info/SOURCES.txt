@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+hexlet_hello_world.egg-info/PKG-INFO
+hexlet_hello_world.egg-info/SOURCES.txt
+hexlet_hello_world.egg-info/dependency_links.txt
+hexlet_hello_world.egg-info/entry_points.txt
+hexlet_hello_world.egg-info/requires.txt
+hexlet_hello_world.egg-info/top_level.txt
+my_application/__init__.py
+my_application/module.py

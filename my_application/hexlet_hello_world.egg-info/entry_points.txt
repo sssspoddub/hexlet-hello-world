@@ -1,0 +1,2 @@
+[console_scripts]
+my-app = my_application.scripts.main:main

@@ -20,3 +20,8 @@ where = ["."]
 include = ["my_application"]
 exclude = ["hexlet_hello_world"]
 
+[dependency-groups]
+dev = [
+    "ruff>=0.9.7",
+]
+
